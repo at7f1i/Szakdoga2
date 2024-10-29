@@ -13,7 +13,10 @@ const navLinks = [
     href: "/posts",
     label: "Posts",
   },
-
+  {
+    href: "/task",
+    label: "Task",
+  },
 ];
 
 export default function Header() {
