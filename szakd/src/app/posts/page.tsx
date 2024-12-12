@@ -1,7 +1,6 @@
 import Form from "@/components/form";
 import PostsList from "@/components/posts-lists";
 import { Suspense } from "react";
-import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/server"
 
 export default async function Posts(){
     
@@ -12,9 +11,7 @@ export default async function Posts(){
         <Suspense fallback="Loading..."> 
             <PostsList/>
         </Suspense>
-
         <Form/>
-        <LogoutLink>Log out</LogoutLink>
         </main>
     )
 }
